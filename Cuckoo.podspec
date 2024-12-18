@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target       = '8.0'
   s.osx.deployment_target       = '10.9'
   #s.watchos.deployment_target   = '2.0' # watchos does not include XCTest framework :(
-  s.tvos.deployment_target      = '9.0'
+  #s.tvos.deployment_target      = '9.0'
   generator_name                = 'cuckoo_generator'
   s.swift_version               = '5.0'
   s.preserve_paths              = ['Generator/**/*', 'run', 'build_generator', generator_name]
